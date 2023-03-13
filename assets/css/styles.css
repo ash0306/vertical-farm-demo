@@ -1,12 +1,14 @@
 *{
     margin: 0px;
+    font-family: 'OCR A Std' ,monospace;
+    /* background-color: #101012; */
 }
 .topnav{
     padding: 14px 16px;
     list-style-type: none;
     margin: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #101012;
     color:white;
 }
 
@@ -22,10 +24,82 @@
     color: white;
 }
 
-li a:hover {
-  background-color: #111;
+li:hover {
+  background-color: #333;
 }
 
 .top-r{
     float:right;
+}
+
+.col2{
+    background-color: #101012;
+    float: left;
+    width: 40%;
+    height: 500px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col1{
+    padding-left: 100px;
+    background-color: #101012;
+    float: left;
+    width: 60%;
+    padding: 0px;
+    height: 500px;
+}
+
+.col1-head{
+    padding-left: 100px;
+    padding-top: 70px;
+    font-size: 40px;
+    color: white;
+}
+
+.highlight{
+    background-color: #F0FF9D;
+    color: #101012;
+}
+
+.col1-cont{
+    color: white;
+    padding-left: 100px;
+    font-size: small;
+}
+
+.box{
+    padding-left: 100px;
+}
+
+.b1{
+    /* display: inline; */
+    /* justify-content: space-around; */
+    width:160px;
+    text-align: center;
+    background-color: #F0FF9D;
+    color: #101012;
+    border: #101012 2px solid;
+    border-radius: 25px;
+}
+
+.b2{
+    /* display: inline; */
+    /* justify-content: space-around; */
+    width:160px;
+    text-align: center;
+    background-color: #101012;
+    color: white;
+    border: white 2px solid;
+    border-radius: 25px;
+}
+
+.col2-img{
+    width: 300px;
+    margin: 20px;
+    border-radius: 25px;
 }
